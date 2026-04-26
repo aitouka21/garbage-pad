@@ -59,12 +59,12 @@
 		width = <128>;
 		height = <32>;
 		segment-offset = <0>;
-		page-offset = <0>;
+		page-offset = <4>;
 		display-offset = <0>;
 		multiplex-ratio = <31>;
 		segment-remap;
-		prechargep = <0x22>;
+		com-invdir;
 		com-sequential;
-
+		prechargep = <0x22>;
 	};
 };
